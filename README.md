@@ -1,6 +1,6 @@
 ## Getting Started
 
-### RadixUI Icons: https://www.radix-ui.com/icons
+### RadixUI Icons: https://lucide.dev/icons/
 ### Shadcn Components: https://ui.shadcn.com/
 
 ## COMMIT RULES
