@@ -2,13 +2,12 @@ import Link from "next/link";
 
 export const NavBar = () => {
   return (
-    <nav className="flex items-center justify-between bg-secondary/80 backdrop-blur-lg border-b border-border p-4 shadow-md">
-      <Link
-        href="/"
-        className="text-primary font-bold text-xl tracking-wide transition-all hover:text-primary-hover"
-      >
-        🎬 MovieRank.pl
+    // TODO: Style navigation as on design
+    <nav className="flex bg-accent-500 text-neutral-50 px-8 py-6">
+      <Link href="/" className="text-neutral-700">
+        🎬
       </Link>
+      {/* TODO: Create links to subpages */}
     </nav>
   );
 };
