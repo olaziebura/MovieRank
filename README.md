@@ -1,6 +1,6 @@
 # 🎬 MovieRank – Aplikacja do Wyszukiwania i Zarządzania Filmami
 
-**MovieVault** to nowoczesna aplikacja webowa, która umożliwia użytkownikowi wygodne przeszukiwanie bazy filmów, filtrowanie według preferencji oraz zarządzanie własną kolekcją: filmami obejrzanymi oraz listą "do obejrzenia" (wishlistą).
+**MovieRank** to nowoczesna aplikacja webowa, która umożliwia użytkownikowi wygodne przeszukiwanie bazy filmów, filtrowanie według preferencji oraz zarządzanie własną kolekcją: filmami obejrzanymi oraz listą "do obejrzenia" (wishlistą).
 
 ---
 
