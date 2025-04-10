@@ -1,24 +1,51 @@
-## Getting Started
+# 🎬 MovieRank – Aplikacja do Wyszukiwania i Zarządzania Filmami
 
-### RadixUI Icons: https://lucide.dev/icons/
-### Shadcn Components: https://ui.shadcn.com/
+**MovieVault** to nowoczesna aplikacja webowa, która umożliwia użytkownikowi wygodne przeszukiwanie bazy filmów, filtrowanie według preferencji oraz zarządzanie własną kolekcją: filmami obejrzanymi oraz listą "do obejrzenia" (wishlistą).
 
-## COMMIT RULES
+---
 
-### Branch name pattern: [type]/[branch-name]
-#### example: chore/configure-nextjs
+## 📌 Główne założenia projektu
 
-| Type       | Description                                                                 |
-|------------|-----------------------------------------------------------------------------|
-| `feat`     | A new feature                                                               |
-| `fix`      | A bug fix                                                                   |
-| `docs`     | Documentation-only changes                                                  |
-| `style`    | Code style changes (formatting, missing semicolons, etc.), no logic change |
-| `refactor` | Code changes that neither fix a bug nor add a feature                      |
-| `perf`     | Performance improvements                                                    |
-| `test`     | Adding or updating tests                                                    |
-| `chore`    | Routine tasks like config updates or dependency bumps                       |
-| `build`    | Changes that affect the build system or dependencies                        |
-| `ci`       | Changes to CI/CD configuration files and scripts                            |
-| `revert`   | Reverts a previous commit                
+- 🔎 Wyszukiwanie filmów po tytule, gatunku, dacie premiery i ocenach.
+- 📂 Filtrowanie wyników według zdefiniowanych kryteriów.
+- ✅ Możliwość oznaczania filmów jako obejrzane.
+- 🎯 Tworzenie i zarządzanie wishlistą (lista filmów do obejrzenia).
+- ⚡ Intuicyjny, szybki i responsywny interfejs użytkownika.
+
+---
+
+## 🧱 Stack technologiczny
+
+### 🖥️ Frontend
+
+- **Next.js** – SSR i SSG dla lepszej wydajności i SEO.
+- **TypeScript** – Statyczne typowanie, większe bezpieczeństwo kodu.
+- **TailwindCSS** – Utility-first framework CSS do szybkiego stylowania.
+- **shadcn/ui** – Gotowe, eleganckie i dostępne komponenty UI.
+
+### ⚙️ Backend
+
+- **Node.js** – Lekki runtime oparty na V8.
+- **Express** – Minimalistyczny i szybki framework API.
+
+---
+
+## 🎬 API zewnętrzne
+
+Dane o filmach są pobierane i przetwarzane z oficjalnego API:
+
+🔗 [The Movie Database (TMDb)](https://developer.themoviedb.org)
+
+---
+
+## 🚀 Przyszłe funkcje
+
+- 🔐 Uwierzytelnianie użytkowników.
+- 💾 Baza danych użytkownika (obejrzane filmy, wishlisty).
+- ⭐ System oceniania i recenzowania filmów.
+
+---
+
+## 🧭 Struktura projektu
+
 
