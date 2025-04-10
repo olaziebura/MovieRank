@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
-      <body className="bg-neutral-700">
+      <body className="bg-accent-500">
         <NavBar />
-        <main className="max-w-7xl mx-auto px-6 py-10">{children}</main>
+        <main className="mx-auto px-6 py-10">{children}</main>
       </body>
     </html>
   );

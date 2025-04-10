@@ -9,7 +9,12 @@ import {
 } from "../../../shadcn/dropdown-menu";
 import { UserRound } from "lucide-react";
 import { Separator } from "@radix-ui/react-dropdown-menu";
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "@/shadcn/navigation-menu";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+} from "@/shadcn/navigation-menu";
 import { Button } from "@/shadcn/button";
 
 const menuItems = [
@@ -19,7 +24,7 @@ const menuItems = [
 
 export const NavBar = () => {
   return (
-    <NavigationMenu className="p-4 bg-accent-500 max-w-full justify-end">
+    <NavigationMenu className="p-4 bg-accent-100 max-w-full justify-end">
       <NavigationMenuList className="flex items-center gap-4">
         {menuItems.map((item) => (
           <NavigationMenuItem key={item.href}>
