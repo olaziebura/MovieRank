@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-import { NavBar } from "./components/navbar/navbar";
 import "./globals.css";
+import { NavBar } from "./_components/Navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "MovieRank",
